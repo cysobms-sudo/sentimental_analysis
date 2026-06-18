@@ -18,4 +18,4 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          git push https://cysobms-sudo:$HF_TOKEN@huggingface.co/spaces/cysobms-sudo/sentimental-analysis main
+          git push https://cysobms-sudo:$HF_TOKEN@huggingface.co/spaces/cysobms/sentimental-analysis main
